@@ -1,0 +1,19 @@
+{
+	"name": "mattjmattj/php-skeleton",
+	"description": "PHP skeleton",
+	"require-dev": {
+		"phpunit/phpunit": "~4.5"
+	},
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Matthias Jouan",
+			"email": "matthias.jouan@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"FOOBAR\\": "src"
+		}
+	}
+}
